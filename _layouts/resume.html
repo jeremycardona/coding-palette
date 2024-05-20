@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    {% include navigation.html %}
+    {{ content }}
+    {% for file in site.static_files %}
+        {% if file.pdf %}
+        <embed src="{{file.path}}" width="800px" height="1100px" />
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
