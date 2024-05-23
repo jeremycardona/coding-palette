@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/about-me.css" | relative_url }}">
 </head>
 <body>
     {% include navigation.html %}
-    <h1>About me</h1>
-    {{ content }}
+    <div>
+    <h1 class="stroke">About me</h1>
+  </div>
+  <div class="content">
+    <p class="about-me">{{ content }}</p>
+  </div>
+    
+    
 </body>
 </html>
 

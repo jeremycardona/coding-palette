@@ -1,8 +1,9 @@
 ---
 layout: "post"
 title: "High level programming"
-categories: "programming high-level"
-permalink: "/high-level-programming/"
+categories: "programming-high-level"
+tags: "python"
+permalink: high-level-1
 ---
 
-Content
+High level programming post content

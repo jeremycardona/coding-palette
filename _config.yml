@@ -31,18 +31,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-defaults:
-  - scope:
-      path: ""
-      type: "post"
-    values:
-      layout: "post"
-      author: "Jeremy Cardona"
-
-  - scope:
-      path: "assets/pdf"
-    values:
-      pdf: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

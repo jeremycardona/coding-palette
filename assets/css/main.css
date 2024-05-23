@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+html {
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+div .stroke{
+    margin: 20px auto;
+    max-width: 800px;
+}
+.stroke {
+  font-size: 4em;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-align: center;
+}
+.post{
+    background: #D9D9D9;
+    height: 200px;
+    width: 370px;
+    margin: 14px auto;
+    padding: 20px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.post p {
+    color: #000;
+}
+.content{
+    padding: 30px 30px;
+}

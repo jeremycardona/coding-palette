@@ -1,10 +1,61 @@
-<nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="{{ site.baseurl }}/about">About</a></li>
-      <li><a href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
-      <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-      <li><a href="{{ site.baseurl }}/resume">Resume</a></li>
+<style>
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ececec;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+.navbar-links a:active{
+  text-decoration: underline;
+}
+
+</style>
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="logo"><a href="{{ site.baseurl }}/">Coding Palette</a></div>
+    <div class="navbar-links">
+      <a href="{{ site.baseurl }}/about">About</a>
+      <a href="{{ site.baseurl }}/portfolio">Portfolio</a>
+      <a href="{{ site.baseurl }}/projects">Projects</a>
+      <a href="{{ site.baseurl }}/resume">Resume</a>
       <!-- Add other links here -->
-    </ul>
+    </div>
+  </div>
   </nav>
